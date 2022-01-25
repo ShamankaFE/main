@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,700&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Roboto", "Arial", sans-serif;
+	line-height: 150%;
+	margin: 30px;
+}
+
+/* --------------- */
+
+p,
+li {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+	font-weight: bold;
+	line-height: 200%;
+}
+
+h2,
+h3,
+h4,
+table caption {
+	font-size: 20px;
+	font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+	font-weight: bold;
+	margin: 40px 0 10px 0;
+}
+
+h4,
+footer li {
+	font-size: 20px;
+	/* font-weight: bold; */
+	font-family: monospace;
+}
+
+footer li,
+.contents li,
+.content-item,
+.source,
+.note {
+	color: rgb(112, 25, 58);
+	font-size: 14px;
+	font-family: "Roboto-Condensed";
+	line-height: 150%;
+}
+
+header,
+footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ul li {
+	list-style: disc;
+	margin-left: 15px;
+}
+
+dt {
+	color: violet;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+dd {
+	color: slategray;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+dd dt {
+	color: rgb(112, 25, 58);
+}
+
+.theories dl,
+.note {
+	background-color: whitesmoke;
+	padding: 10px;
+}
+
+.sum,
+.contents {
+	background-color: silver;
+	padding: 10px;
+}
+
+.sum li {
+	font-weight: bolder;
+}
+
+mark {
+	background-color: violet;
+}
+
+table.list_articles {
+	width: 800px;
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+	border-collapse: collapse;
+	border-top: 7px solid blueviolet;
+	border-bottom: 5px solid grey;
+}
+
+.avatar {
+	width: 100px;
+	float: left;
+}
